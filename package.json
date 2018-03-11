@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/alextaaa/sniffpro.git"
   },
+  "keywords": [
+    "promises",
+    "sniff"
+  ],
   "author": "Alex Terpyakov",
   "license": "MIT",
   "bugs": {
