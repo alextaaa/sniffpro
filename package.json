@@ -1,0 +1,19 @@
+{
+  "name": "sniffpro",
+  "version": "1.0.0",
+  "description": "A simple function for debugging stuff like promise chains and other pipeline-like thingees",
+  "main": "sniffpro.js",
+  "scripts": {
+    "start": "npm i && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextaaa/sniffpro.git"
+  },
+  "author": "Alex Terpyakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alextaaa/sniffpro/issues"
+  },
+  "homepage": "https://github.com/alextaaa/sniffpro#readme"
+}
