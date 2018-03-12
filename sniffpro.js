@@ -16,7 +16,7 @@ api.save = filename => val => writeFile(filename, JSON.stringify(val, null, 2)).
 	console.log(`sniffpro wrote to ${filename}`)
 	return val
 })
-api.load = filename => readFile(filename).then(data => JSON.parse(data))
+api.load = filename => fs.existsSync(filename) ? readFile(filename).then(data => JSON.parse(data)) : console.log(`sniffpro not found ${filename}`)
 api.memo = (filename, fn) => fs.existsSync(filename) ? api.load(filename) : fn().then(api.save(filename))
 
 module.exports = api

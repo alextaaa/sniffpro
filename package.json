@@ -1,6 +1,6 @@
 {
   "name": "sniffpro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple function for debugging stuff like promise chains and other pipeline-like thingees",
   "main": "sniffpro.js",
   "scripts": {
